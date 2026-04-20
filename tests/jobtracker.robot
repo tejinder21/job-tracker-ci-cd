@@ -6,7 +6,7 @@ ${URL}    http://localhost:3000
 
 *** Keywords ***
 Open Job Tracker
-    New Browser    chromium    headless=False
+    New Browser    chromium    headless=True
     New Context
     New Page    ${URL}
 
