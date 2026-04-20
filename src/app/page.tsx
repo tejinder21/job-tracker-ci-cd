@@ -5,41 +5,50 @@ import JobForm from "@/components/JobForm";
 import JobList from "@/components/JobList";
 import type { JobApplication } from "@/types/jobs";
 
+const STORAGE_KEY = "job-tracker-jobs";
+
+const defaultJobs: JobApplication[] = [
+  {
+    id: "1",
+    company: "Google",
+    position: "Frontend Developer",
+    status: "applied",
+    notes: "Applied through LinkedIn",
+    createdAt: "2026-04-05",
+  },
+  {
+    id: "2",
+    company: "Microsoft",
+    position: "Software Engineer",
+    status: "interview",
+    notes: "First interview scheduled",
+    createdAt: "2026-04-04",
+  },
+];
+
 export default function Home() {
-  const STORAGE_KEY = "job-tracker-jobs";
-
   const [searchTerm, setSearchTerm] = useState("");
-
-  const [jobs, setJobs] = useState<JobApplication[]>([
-    {
-      id: "1",
-      company: "Google",
-      position: "Frontend Developer",
-      status: "applied",
-      notes: "Applied through LinkedIn",
-      createdAt: "2026-04-05",
-    },
-    {
-      id: "2",
-      company: "Microsoft",
-      position: "Software Engineer",
-      status: "interview",
-      notes: "First interview scheduled",
-      createdAt: "2026-04-04",
-    },
-  ]);
+  const [jobs, setJobs] = useState<JobApplication[]>(defaultJobs);
+  const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
     const savedJobs = localStorage.getItem(STORAGE_KEY);
 
-    if (savedJobs) {
-      setJobs(JSON.parse(savedJobs));
-    }
+    const timeout = window.setTimeout(() => {
+      if (savedJobs) {
+        setJobs(JSON.parse(savedJobs) as JobApplication[]);
+      }
+      setIsLoaded(true);
+    }, 0);
+
+    return () => window.clearTimeout(timeout);
   }, []);
 
   useEffect(() => {
+    if (!isLoaded) return;
+
     localStorage.setItem(STORAGE_KEY, JSON.stringify(jobs));
-  }, [jobs]);
+  }, [jobs, isLoaded]);
 
   const handleDelete = (id: string) => {
     setJobs((prevJobs) => prevJobs.filter((job) => job.id !== id));
