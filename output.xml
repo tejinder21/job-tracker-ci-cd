@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.2 (Python 3.13.7 on darwin)" generated="2026-04-20T16:51:46.035228" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.2 (Python 3.13.7 on darwin)" generated="2026-04-20T21:55:43.202510" rpa="false" schemaversion="5">
 <suite id="s1" name="Jobtracker" source="/Users/tajinderkumar/Desktop/kurssit26/ohjelmistokehityksen teknologiat/seminaarityö /job-tracker-ci-cd/tests/jobtracker.robot">
-<test id="s1-t1" name="User Can Add A New Job" line="8">
+<test id="s1-t1" name="User Can Add A New Job" line="23">
+<kw name="Open Job Tracker">
 <kw name="New Browser" owner="Browser">
-<msg time="2026-04-20T16:51:46.181591" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/tajinderkumar/Desktop/kurssit26/ohjelmistokehityksen teknologiat/seminaarity\u00f6 /job-tracker-ci-cd/browser/traces/temp/c47fadd0-9f1c-4ad6-ab0d-29582cee3a17"}</msg>
-<msg time="2026-04-20T16:51:46.262207" level="INFO">Starting Browser process /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:60956</msg>
-<msg time="2026-04-20T16:51:48.763913" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/tajinderkumar/Desktop/kurssit26/ohjelmistokehityksen teknologiat/seminaarityö /job-tracker-ci-cd/browser/traces/temp/c47fadd0-9f1c-4ad6-ab0d-29582cee3a17"}</msg>
+<msg time="2026-04-20T21:55:43.347345" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/tajinderkumar/Desktop/kurssit26/ohjelmistokehityksen teknologiat/seminaarity\u00f6 /job-tracker-ci-cd/browser/traces/temp/88ac5cdb-ede2-401b-ab02-2139cefd1328"}</msg>
+<msg time="2026-04-20T21:55:43.437101" level="INFO">Starting Browser process /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:50213</msg>
+<msg time="2026-04-20T21:55:45.980553" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/tajinderkumar/Desktop/kurssit26/ohjelmistokehityksen teknologiat/seminaarityö /job-tracker-ci-cd/browser/traces/temp/88ac5cdb-ede2-401b-ab02-2139cefd1328"}</msg>
 <arg>chromium</arg>
 <arg>headless=False</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2026-04-20T16:51:46.180955" elapsed="2.583611"/>
+<status status="PASS" start="2026-04-20T21:55:43.346941" elapsed="2.633909"/>
 </kw>
 <kw name="New Context" owner="Browser">
-<msg time="2026-04-20T16:51:48.767017" level="INFO">{
+<msg time="2026-04-20T21:55:45.982630" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": false,
   "forcedColors": "none",
@@ -28,49 +29,56 @@
     "height": 720
   }
 }</msg>
-<msg time="2026-04-20T16:51:48.791218" level="INFO">Successfully created context. </msg>
-<msg time="2026-04-20T16:51:48.791280" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg time="2026-04-20T21:55:45.999362" level="INFO">Successfully created context. </msg>
+<msg time="2026-04-20T21:55:45.999421" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2026-04-20T16:51:48.765394" elapsed="0.025960"/>
+<status status="PASS" start="2026-04-20T21:55:45.981273" elapsed="0.018201"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2026-04-20T16:51:49.856235" level="INFO">Successfully initialized new page object and opened url: http://localhost:3000</msg>
+<msg time="2026-04-20T21:55:47.014887" level="INFO">Successfully initialized new page object and opened url: http://localhost:3000</msg>
 <arg>${URL}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2026-04-20T16:51:48.791522" elapsed="1.071985"/>
+<status status="PASS" start="2026-04-20T21:55:45.999596" elapsed="1.017762"/>
 </kw>
+<status status="PASS" start="2026-04-20T21:55:43.346522" elapsed="3.673663"/>
+</kw>
+<kw name="Add Job">
 <kw name="Fill Text" owner="Browser">
-<msg time="2026-04-20T16:51:49.868796" level="INFO">Fills the text 'Wolt' in the given field.</msg>
+<msg time="2026-04-20T21:55:47.029464" level="INFO">Fills the text 'Wolt' in the given field.</msg>
 <arg>input[name="company"]</arg>
-<arg>Wolt</arg>
+<arg>${company}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2026-04-20T16:51:49.866773" elapsed="0.108308"/>
+<status status="PASS" start="2026-04-20T21:55:47.026608" elapsed="0.112226"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2026-04-20T16:51:49.976186" level="INFO">Fills the text 'Frontend Intern' in the given field.</msg>
+<msg time="2026-04-20T21:55:47.139738" level="INFO">Fills the text 'Frontend Intern' in the given field.</msg>
 <arg>input[name="position"]</arg>
-<arg>Frontend Intern</arg>
+<arg>${position}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2026-04-20T16:51:49.975471" elapsed="0.008035"/>
+<status status="PASS" start="2026-04-20T21:55:47.138979" elapsed="0.016373"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2026-04-20T16:51:49.984055" level="INFO">Clicks the element 'text=Add'.</msg>
+<msg time="2026-04-20T21:55:47.156403" level="INFO">Clicks the element 'text=Add'.</msg>
 <arg>text=Add</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-04-20T16:51:49.983695" elapsed="0.060480"/>
+<status status="PASS" start="2026-04-20T21:55:47.155851" elapsed="0.076781"/>
+</kw>
+<arg>Wolt</arg>
+<arg>Frontend Intern</arg>
+<status status="PASS" start="2026-04-20T21:55:47.022299" elapsed="0.210429"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2026-04-20T16:51:50.065807" level="INFO">Text: 'Job Tracker\nAdd\nApplications\nWolt\n\nFrontend Intern\n\nStatus: applied\n\nNotes:\n\nCreated: 20.4.2026\n\nEdit\nDelete\nGoogle\n\nFrontend Developer\n\nStatus: applied\n\nNotes: Applied through LinkedIn\n\nCreated: 5.4.2026\n\nEdit\nDelete\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete'</msg>
+<msg time="2026-04-20T21:55:47.256908" level="INFO">Text: 'Job Tracker\nAdd\nApplications\nWolt\n\nFrontend Intern\n\nStatus: applied\n\nNotes:\n\nCreated: 20.4.2026\n\nEdit\nDelete\nGoogle\n\nFrontend Developer\n\nStatus: applied\n\nNotes: Applied through LinkedIn\n\nCreated: 5.4.2026\n\nEdit\nDelete\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete'</msg>
 <arg>body</arg>
 <arg>*=</arg>
 <arg>Wolt</arg>
@@ -78,10 +86,10 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2026-04-20T16:51:50.044395" elapsed="0.021830"/>
+<status status="PASS" start="2026-04-20T21:55:47.232902" elapsed="0.024280"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2026-04-20T16:51:50.077923" level="INFO">Text: 'Job Tracker\nAdd\nApplications\nWolt\n\nFrontend Intern\n\nStatus: applied\n\nNotes:\n\nCreated: 20.4.2026\n\nEdit\nDelete\nGoogle\n\nFrontend Developer\n\nStatus: applied\n\nNotes: Applied through LinkedIn\n\nCreated: 5.4.2026\n\nEdit\nDelete\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete'</msg>
+<msg time="2026-04-20T21:55:47.271185" level="INFO">Text: 'Job Tracker\nAdd\nApplications\nWolt\n\nFrontend Intern\n\nStatus: applied\n\nNotes:\n\nCreated: 20.4.2026\n\nEdit\nDelete\nGoogle\n\nFrontend Developer\n\nStatus: applied\n\nNotes: Applied through LinkedIn\n\nCreated: 5.4.2026\n\nEdit\nDelete\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete'</msg>
 <arg>body</arg>
 <arg>*=</arg>
 <arg>Frontend Intern</arg>
@@ -89,27 +97,280 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2026-04-20T16:51:50.066689" elapsed="0.011319"/>
+<status status="PASS" start="2026-04-20T21:55:47.257579" elapsed="0.013700"/>
 </kw>
+<kw name="Close Job Tracker">
 <kw name="Close Browser" owner="Browser">
-<msg time="2026-04-20T16:51:50.207809" level="INFO">Closed browser</msg>
+<msg time="2026-04-20T21:55:47.429064" level="INFO">Closed browser</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-04-20T16:51:50.078240" elapsed="0.129680"/>
+<status status="PASS" start="2026-04-20T21:55:47.272589" elapsed="0.156594"/>
 </kw>
-<status status="PASS" start="2026-04-20T16:51:46.179934" elapsed="4.028285"/>
+<status status="PASS" start="2026-04-20T21:55:47.271671" elapsed="0.157594"/>
+</kw>
+<status status="PASS" start="2026-04-20T21:55:43.346120" elapsed="4.083316"/>
 </test>
-<status status="PASS" start="2026-04-20T16:51:46.036032" elapsed="4.177001"/>
+<test id="s1-t2" name="User Can Search Jobs" line="33">
+<kw name="Open Job Tracker">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-04-20T21:55:47.439359" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/tajinderkumar/Desktop/kurssit26/ohjelmistokehityksen teknologiat/seminaarity\u00f6 /job-tracker-ci-cd/browser/traces/temp/1b2097b1-f1a2-400b-bac2-b53e8f6f9519"}</msg>
+<msg time="2026-04-20T21:55:47.959837" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/tajinderkumar/Desktop/kurssit26/ohjelmistokehityksen teknologiat/seminaarityö /job-tracker-ci-cd/browser/traces/temp/1b2097b1-f1a2-400b-bac2-b53e8f6f9519"}</msg>
+<arg>chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-04-20T21:55:47.438009" elapsed="0.522108"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2026-04-20T21:55:47.962919" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2026-04-20T21:55:47.972635" level="INFO">Successfully created context. </msg>
+<msg time="2026-04-20T21:55:47.972692" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2026-04-20T21:55:47.960431" elapsed="0.012367"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-04-20T21:55:48.381725" level="INFO">Successfully initialized new page object and opened url: http://localhost:3000</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-04-20T21:55:47.972911" elapsed="0.408976"/>
+</kw>
+<status status="PASS" start="2026-04-20T21:55:47.437718" elapsed="0.944405"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-04-20T21:55:48.383502" level="INFO">Fills the text 'Microsoft' in the given field.</msg>
+<arg>input[placeholder="Search by company or position"]</arg>
+<arg>Microsoft</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-04-20T21:55:48.383029" elapsed="0.074363"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-04-20T21:55:48.473680" level="INFO">Text: 'Job Tracker\nAdd\nApplications\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete'</msg>
+<arg>body</arg>
+<arg>*=</arg>
+<arg>Microsoft</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-04-20T21:55:48.457722" elapsed="0.016034"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-04-20T21:55:48.479021" level="INFO">Text: 'Job Tracker\nAdd\nApplications\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete'</msg>
+<arg>body</arg>
+<arg>*=</arg>
+<arg>Software Engineer</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-04-20T21:55:48.473917" elapsed="0.005179"/>
+</kw>
+<kw name="Close Job Tracker">
+<kw name="Close Browser" owner="Browser">
+<msg time="2026-04-20T21:55:48.584913" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-04-20T21:55:48.479512" elapsed="0.105750"/>
+</kw>
+<status status="PASS" start="2026-04-20T21:55:48.479276" elapsed="0.106189"/>
+</kw>
+<status status="PASS" start="2026-04-20T21:55:47.436298" elapsed="1.149467"/>
+</test>
+<test id="s1-t3" name="User Can Edit Job Status" line="43">
+<kw name="Open Job Tracker">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-04-20T21:55:48.590912" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/tajinderkumar/Desktop/kurssit26/ohjelmistokehityksen teknologiat/seminaarity\u00f6 /job-tracker-ci-cd/browser/traces/temp/e78cce61-a582-4d55-8bad-fed7fd06b679"}</msg>
+<msg time="2026-04-20T21:55:48.823881" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/tajinderkumar/Desktop/kurssit26/ohjelmistokehityksen teknologiat/seminaarityö /job-tracker-ci-cd/browser/traces/temp/e78cce61-a582-4d55-8bad-fed7fd06b679"}</msg>
+<arg>chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-04-20T21:55:48.590369" elapsed="0.233887"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2026-04-20T21:55:48.826265" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2026-04-20T21:55:48.832415" level="INFO">Successfully created context. </msg>
+<msg time="2026-04-20T21:55:48.832479" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2026-04-20T21:55:48.824623" elapsed="0.007922"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-04-20T21:55:49.234032" level="INFO">Successfully initialized new page object and opened url: http://localhost:3000</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-04-20T21:55:48.832687" elapsed="0.401681"/>
+</kw>
+<status status="PASS" start="2026-04-20T21:55:48.590087" elapsed="0.644371"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-04-20T21:55:49.235543" level="INFO">Clicks the element 'text=Edit &gt;&gt; nth=0'.</msg>
+<arg>text=Edit &gt;&gt; nth=0</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-04-20T21:55:49.234596" elapsed="0.098884"/>
+</kw>
+<kw name="Select Options By" owner="Browser">
+<msg time="2026-04-20T21:55:49.334064" level="INFO">Selects the option(s) offer by attribute SelectAttribute.value from element select.</msg>
+<arg>select</arg>
+<arg>value</arg>
+<arg>offer</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Selects options from select element found by ``selector``.</doc>
+<status status="PASS" start="2026-04-20T21:55:49.333661" elapsed="0.034057"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-04-20T21:55:49.368227" level="INFO">Clicks the element 'text=Save'.</msg>
+<arg>text=Save</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-04-20T21:55:49.367881" elapsed="0.271136"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-04-20T21:55:49.661883" level="INFO">Text: 'Job Tracker\nAdd\nApplications\nGoogle\n\nFrontend Developer\n\nStatus: offer\n\nNotes: Applied through LinkedIn\n\nCreated: 5.4.2026\n\nEdit\nDelete\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete'</msg>
+<arg>body</arg>
+<arg>*=</arg>
+<arg>offer</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-04-20T21:55:49.639504" elapsed="0.022504"/>
+</kw>
+<kw name="Close Job Tracker">
+<kw name="Close Browser" owner="Browser">
+<msg time="2026-04-20T21:55:49.734882" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-04-20T21:55:49.662652" elapsed="0.072340"/>
+</kw>
+<status status="PASS" start="2026-04-20T21:55:49.662311" elapsed="0.072748"/>
+</kw>
+<status status="PASS" start="2026-04-20T21:55:48.588971" elapsed="1.146202"/>
+</test>
+<test id="s1-t4" name="User Can Delete Job" line="54">
+<kw name="Open Job Tracker">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-04-20T21:55:49.739341" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/tajinderkumar/Desktop/kurssit26/ohjelmistokehityksen teknologiat/seminaarity\u00f6 /job-tracker-ci-cd/browser/traces/temp/4d29aa82-867e-4973-aa06-6259d832cf5c"}</msg>
+<msg time="2026-04-20T21:55:49.971721" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/tajinderkumar/Desktop/kurssit26/ohjelmistokehityksen teknologiat/seminaarityö /job-tracker-ci-cd/browser/traces/temp/4d29aa82-867e-4973-aa06-6259d832cf5c"}</msg>
+<arg>chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-04-20T21:55:49.738745" elapsed="0.233830"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2026-04-20T21:55:49.975572" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2026-04-20T21:55:49.981344" level="INFO">Successfully created context. </msg>
+<msg time="2026-04-20T21:55:49.981401" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2026-04-20T21:55:49.973279" elapsed="0.008165"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-04-20T21:55:50.366597" level="INFO">Successfully initialized new page object and opened url: http://localhost:3000</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-04-20T21:55:49.981559" elapsed="0.385431"/>
+</kw>
+<status status="PASS" start="2026-04-20T21:55:49.738499" elapsed="0.628580"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-04-20T21:55:50.367653" level="INFO">Clicks the element 'text=Delete &gt;&gt; nth=0'.</msg>
+<arg>text=Delete &gt;&gt; nth=0</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-04-20T21:55:50.367198" elapsed="0.093913"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-04-20T21:55:51.462470" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-04-20T21:55:50.461384" elapsed="1.001482"/>
+</kw>
+<kw name="Close Job Tracker">
+<kw name="Close Browser" owner="Browser">
+<msg time="2026-04-20T21:55:51.579988" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-04-20T21:55:51.464675" elapsed="0.115441"/>
+</kw>
+<status status="PASS" start="2026-04-20T21:55:51.463654" elapsed="0.116538"/>
+</kw>
+<status status="PASS" start="2026-04-20T21:55:49.737547" elapsed="1.842759"/>
+</test>
+<status status="PASS" start="2026-04-20T21:55:43.203175" elapsed="8.381434"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Jobtracker" id="s1" pass="1" fail="0" skip="0">Jobtracker</stat>
+<stat name="Jobtracker" id="s1" pass="4" fail="0" skip="0">Jobtracker</stat>
 </suite>
 </statistics>
 <errors>
