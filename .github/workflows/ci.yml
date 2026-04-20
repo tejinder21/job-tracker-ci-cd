@@ -64,7 +64,7 @@ jobs:
 
       - name: Start Next.js app
         run: npm run dev &
-      
+
       - name: Wait for app to be ready
         run: npx wait-on http://localhost:3000
 
