@@ -14,11 +14,7 @@ type JobListProps = {
   ) => void;
 };
 
-export default function JobList({
-  jobs,
-  onDelete,
-  onUpdate,
-}: JobListProps) {
+export default function JobList({ jobs, onDelete, onUpdate }: JobListProps) {
   const [editingId, setEditingId] = useState<string | null>(null);
   const [editCompany, setEditCompany] = useState("");
   const [editPosition, setEditPosition] = useState("");
@@ -44,9 +40,7 @@ export default function JobList({
     cancelEditing();
   };
 
-  const getStatusClass = (
-    status: JobApplication["status"]
-  ) => {
+  const getStatusClass = (status: JobApplication["status"]) => {
     switch (status) {
       case "applied":
         return "status-applied";
@@ -67,9 +61,7 @@ export default function JobList({
 
   return (
     <div>
-      <h2 className="text-xl font-semibold mb-2">
-        Applications
-      </h2>
+      <h2 className="text-xl font-semibold mb-2">Applications</h2>
 
       {jobs.map((job) => {
         const isEditing = editingId === job.id;
@@ -81,27 +73,21 @@ export default function JobList({
                 <input
                   type="text"
                   value={editCompany}
-                  onChange={(e) =>
-                    setEditCompany(e.target.value)
-                  }
+                  onChange={(e) => setEditCompany(e.target.value)}
                   placeholder="Company"
                 />
 
                 <input
                   type="text"
                   value={editPosition}
-                  onChange={(e) =>
-                    setEditPosition(e.target.value)
-                  }
+                  onChange={(e) => setEditPosition(e.target.value)}
                   placeholder="Position"
                 />
 
                 <select
                   value={editStatus}
                   onChange={(e) =>
-                    setEditStatus(
-                      e.target.value as JobApplication["status"]
-                    )
+                    setEditStatus(e.target.value as JobApplication["status"])
                   }
                 >
                   <option value="applied">Applied</option>
@@ -113,29 +99,18 @@ export default function JobList({
                 <p>Notes: {job.notes}</p>
 
                 <p>
-                  Created:{" "}
-                  {new Date(
-                    job.createdAt
-                  ).toLocaleDateString("fi-FI")}
+                  Created: {new Date(job.createdAt).toLocaleDateString("fi-FI")}
                 </p>
 
                 <div className="flex gap-2 mt-3">
-                  <button
-                    onClick={() => saveEdit(job.id)}
-                  >
-                    Save
-                  </button>
+                  <button onClick={() => saveEdit(job.id)}>Save</button>
 
-                  <button onClick={cancelEditing}>
-                    Cancel
-                  </button>
+                  <button onClick={cancelEditing}>Cancel</button>
                 </div>
               </>
             ) : (
               <>
-                <h3 className="font-bold">
-                  {job.company}
-                </h3>
+                <h3 className="font-bold">{job.company}</h3>
 
                 <p>{job.position}</p>
                 <p>
@@ -147,26 +122,15 @@ export default function JobList({
                 <p>Notes: {job.notes}</p>
 
                 <p>
-                  Created:{" "}
-                  {new Date(
-                    job.createdAt
-                  ).toLocaleDateString("fi-FI")}
+                  Created: {new Date(job.createdAt).toLocaleDateString("fi-FI")}
                 </p>
 
                 <div className="flex gap-2 mt-3">
-                  <button
-                    onClick={() =>
-                      startEditing(job)
-                    }
-                  >
-                    Edit
-                  </button>
+                  <button onClick={() => startEditing(job)}>Edit</button>
 
                   <button
                     className="delete-btn"
-                    onClick={() =>
-                      onDelete(job.id)
-                    }
+                    onClick={() => onDelete(job.id)}
                   >
                     Delete
                   </button>

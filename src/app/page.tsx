@@ -42,9 +42,7 @@ export default function Home() {
   }, [jobs]);
 
   const handleDelete = (id: string) => {
-    setJobs((prevJobs) =>
-      prevJobs.filter((job) => job.id !== id)
-    );
+    setJobs((prevJobs) => prevJobs.filter((job) => job.id !== id));
   };
 
   const handleUpdate = (
@@ -67,10 +65,7 @@ export default function Home() {
     );
   };
 
-  const addJob = (
-    company: string,
-    position: string
-  ) => {
+  const addJob = (company: string, position: string) => {
     const newJob: JobApplication = {
       id: crypto.randomUUID(),
       company,
@@ -80,27 +75,18 @@ export default function Home() {
       createdAt: new Date().toISOString(),
     };
 
-    setJobs((prevJobs) => [
-      newJob,
-      ...prevJobs,
-    ]);
+    setJobs((prevJobs) => [newJob, ...prevJobs]);
   };
 
   const filteredJobs = jobs.filter(
     (job) =>
-      job.company
-        .toLowerCase()
-        .includes(searchTerm.toLowerCase()) ||
-      job.position
-        .toLowerCase()
-        .includes(searchTerm.toLowerCase())
+      job.company.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      job.position.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
     <main className="p-6">
-      <h1 className="text-2xl font-bold mb-4">
-        Job Tracker
-      </h1>
+      <h1 className="text-2xl font-bold mb-4">Job Tracker</h1>
 
       <JobForm onAdd={addJob} />
 
@@ -108,9 +94,7 @@ export default function Home() {
         type="text"
         placeholder="Search by company or position"
         value={searchTerm}
-        onChange={(e) =>
-          setSearchTerm(e.target.value)
-        }
+        onChange={(e) => setSearchTerm(e.target.value)}
       />
 
       <JobList

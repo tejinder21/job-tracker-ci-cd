@@ -10,9 +10,7 @@ export default function JobForm({ onAdd }: JobFormProps) {
   const [company, setCompany] = useState("");
   const [position, setPosition] = useState("");
 
-  const handleSubmit = (
-    e: React.FormEvent<HTMLFormElement>
-  ) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (!company.trim() || !position.trim()) return;
@@ -24,18 +22,13 @@ export default function JobForm({ onAdd }: JobFormProps) {
   };
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="mb-6 flex gap-2"
-    >
+    <form onSubmit={handleSubmit} className="mb-6 flex gap-2">
       <input
         name="company"
         type="text"
         placeholder="Company"
         value={company}
-        onChange={(e) =>
-          setCompany(e.target.value)
-        }
+        onChange={(e) => setCompany(e.target.value)}
         className="border rounded px-3 py-2"
       />
 
@@ -44,16 +37,11 @@ export default function JobForm({ onAdd }: JobFormProps) {
         type="text"
         placeholder="Position"
         value={position}
-        onChange={(e) =>
-          setPosition(e.target.value)
-        }
+        onChange={(e) => setPosition(e.target.value)}
         className="border rounded px-3 py-2"
       />
 
-      <button
-        type="submit"
-        className="bg-black text-white px-4 py-2 rounded"
-      >
+      <button type="submit" className="bg-black text-white px-4 py-2 rounded">
         Add
       </button>
     </form>
