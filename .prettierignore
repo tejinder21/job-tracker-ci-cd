@@ -1,0 +1,7 @@
+node_modules
+.next
+coverage
+output.xml
+log.html
+report.html
+.venv

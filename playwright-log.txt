@@ -1,0 +1,69 @@
+{"level":30,"time":"2026-04-20T13:51:46.704Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Listening on 127.0.0.1:60956"}
+{"level":30,"time":"2026-04-20T13:51:47.725Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-04-20T13:51:48.762Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 147.0.7727.15"}
+{"level":30,"time":"2026-04-20T13:51:48.762Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-04-20T13:51:48.762Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-04-20T13:51:48.768Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-04-20T13:51:48.768Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-04-20T13:51:48.768Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@60bba254d7dfdc33d5e83a2eefaf3475\"},\"name\":\"chromium\",\"id\":\"browser=86fd0b44-5a15-45bf-80e4-63202f45cbdb\",\"headless\":false}"}
+{"level":30,"time":"2026-04-20T13:51:48.768Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Trace file: "}
+{"level":30,"time":"2026-04-20T13:51:48.790Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Setting default timeout for context context=0bc084b5-1350-484f-ab58-101a8be88d22 to 10000"}
+{"level":30,"time":"2026-04-20T13:51:48.790Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Changed active context: context=0bc084b5-1350-484f-ab58-101a8be88d22"}
+{"level":30,"time":"2026-04-20T13:51:48.790Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"End of node method newContext"}
+{"level":30,"time":"2026-04-20T13:51:48.792Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-04-20T13:51:48.792Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"currentBrowser: {\"_contextStack\":[{\"id\":\"context=0bc084b5-1350-484f-ab58-101a8be88d22\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@bf0c398f0eb87a26e1596183315d68a4\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@60bba254d7dfdc33d5e83a2eefaf3475\"},\"name\":\"chromium\",\"id\":\"browser=86fd0b44-5a15-45bf-80e4-63202f45cbdb\",\"headless\":false}"}
+{"level":30,"time":"2026-04-20T13:51:49.301Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-04-20T13:51:49.301Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-04-20T13:51:49.822Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-04-20T13:51:49.871Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-20T13:51:49.871Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with input[name=\"company\"] in page."}
+{"level":30,"time":"2026-04-20T13:51:49.973Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-20T13:51:49.977Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-20T13:51:49.977Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with input[name=\"position\"] in page."}
+{"level":30,"time":"2026-04-20T13:51:49.982Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-20T13:51:49.984Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-04-20T13:51:49.985Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with text=Add in page."}
+{"level":30,"time":"2026-04-20T13:51:50.043Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-04-20T13:51:50.045Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-04-20T13:51:50.045Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with body in page."}
+{"level":30,"time":"2026-04-20T13:51:50.064Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Retrieved text for element body containing Job Tracker\nAdd\nApplications\nWolt\n\nFrontend Intern\n\nStatus: applied\n\nNotes:\n\nCreated: 20.4.2026\n\nEdit\nDelete\nGoogle\n\nFrontend Developer\n\nStatus: applied\n\nNotes: Applied through LinkedIn\n\nCreated: 5.4.2026\n\nEdit\nDelete\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete"}
+{"level":30,"time":"2026-04-20T13:51:50.064Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-04-20T13:51:50.068Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-04-20T13:51:50.068Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with body in page."}
+{"level":30,"time":"2026-04-20T13:51:50.076Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Retrieved text for element body containing Job Tracker\nAdd\nApplications\nWolt\n\nFrontend Intern\n\nStatus: applied\n\nNotes:\n\nCreated: 20.4.2026\n\nEdit\nDelete\nGoogle\n\nFrontend Developer\n\nStatus: applied\n\nNotes: Applied through LinkedIn\n\nCreated: 5.4.2026\n\nEdit\nDelete\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete"}
+{"level":30,"time":"2026-04-20T13:51:50.076Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-04-20T13:51:50.081Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-04-20T13:51:50.095Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Removed page=4c9dbc47-7148-48da-8f3f-7d3e67a472ef from context=0bc084b5-1350-484f-ab58-101a8be88d22 page stack"}
+{"level":30,"time":"2026-04-20T13:51:50.207Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:8777:13)
+    at PlaywrightServer.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:9689:52)
+    at PlaywrightServer.setTimeout (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:9887:56)
+    at Object.onReceiveHalfClose (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-04-20T13:51:50.211Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-20T13:51:50.212Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:8777:13)
+    at PlaywrightServer.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:9689:52)
+    at PlaywrightServer.setTimeout (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:9887:56)
+    at Object.onReceiveHalfClose (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-04-20T13:51:50.215Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-20T13:51:50.215Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-20T13:51:50.240Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-04-20T13:51:50.240Z","pid":72154,"hostname":"Tajinders-MacBook-Air.local","msg":"End of node method closeAllBrowsers"}
