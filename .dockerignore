@@ -1,0 +1,11 @@
+node_modules
+.next
+.git
+.github
+.venv
+output.xml
+log.html
+report.html
+README.md
+Dockerfile
+npm-debug.logs
