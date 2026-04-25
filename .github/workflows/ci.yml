@@ -1,10 +1,11 @@
 name: CI
-
 on:
   push:
     branches: [main]
     paths-ignore:
       - "README.md"
+      - "reports/**"
+      - "images/**"
   pull_request:
     branches: [main]
 
@@ -19,6 +20,10 @@ jobs:
   quality-and-build:
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        node-version: [20, 18]
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
@@ -26,7 +31,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: ${{ matrix.node-version }}
           cache: npm
 
       - name: Install dependencies
@@ -53,7 +58,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: ${{ matrix.node-version }}
           cache: npm
 
       - name: Setup Python
