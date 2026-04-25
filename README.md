@@ -93,9 +93,6 @@ src/
 npm install
 npm run dev
 ````
-## CI-osioon kuva
-<img src="./images/CI.jpeg" width="500" alt="App Screenshot" />
-
 
 
 ## Sovelluksen käynnistäminen lokaalisti
@@ -259,6 +256,9 @@ Projektissa otettiin käyttöön **GitHub Actions** -pohjainen jatkuvan integraa
 ### Tavoite
 
 CI:n tarkoituksena oli automatisoida projektin laadunvarmistus. Jokainen push ja pull request tarkistetaan automaattisesti ilman manuaalista työtä.
+
+## CI-osion kuva
+<img src="./images/CI.jpeg" width="500" alt="App Screenshot" />
 
 ### Workflow käynnistyy kun
 
