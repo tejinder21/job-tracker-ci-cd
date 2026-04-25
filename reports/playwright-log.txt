@@ -1,40 +1,40 @@
-{"level":30,"time":"2026-04-20T18:55:43.867Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Listening on 127.0.0.1:50213"}
-{"level":30,"time":"2026-04-20T18:55:44.897Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-04-20T18:55:45.979Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Adding browser to stack: chromium, version: 147.0.7727.15"}
-{"level":30,"time":"2026-04-20T18:55:45.979Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-04-20T18:55:45.979Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-04-20T18:55:45.983Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newContext"}
-{"level":30,"time":"2026-04-20T18:55:45.984Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2026-04-20T18:55:45.984Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@9a19a697e1cde3c2984e95eb6464fab3\"},\"name\":\"chromium\",\"id\":\"browser=7c8f6def-e395-46f8-a359-62cb5936c660\",\"headless\":false}"}
-{"level":30,"time":"2026-04-20T18:55:45.984Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Trace file: "}
-{"level":30,"time":"2026-04-20T18:55:45.998Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Setting default timeout for context context=1247a909-5b61-4c7a-86d9-fbf901f6780b to 10000"}
-{"level":30,"time":"2026-04-20T18:55:45.998Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Changed active context: context=1247a909-5b61-4c7a-86d9-fbf901f6780b"}
-{"level":30,"time":"2026-04-20T18:55:45.998Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newContext"}
-{"level":30,"time":"2026-04-20T18:55:46.000Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-04-20T18:55:46.000Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"currentBrowser: {\"_contextStack\":[{\"id\":\"context=1247a909-5b61-4c7a-86d9-fbf901f6780b\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@5f2789ffdc14ebd1b60bdb6a65db6b93\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@9a19a697e1cde3c2984e95eb6464fab3\"},\"name\":\"chromium\",\"id\":\"browser=7c8f6def-e395-46f8-a359-62cb5936c660\",\"headless\":false}"}
-{"level":30,"time":"2026-04-20T18:55:46.503Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Video path: undefined"}
-{"level":30,"time":"2026-04-20T18:55:46.503Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Changed active page"}
-{"level":30,"time":"2026-04-20T18:55:47.009Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newPage"}
-{"level":30,"time":"2026-04-20T18:55:47.033Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-04-20T18:55:47.034Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with input[name=\"company\"] in page."}
-{"level":30,"time":"2026-04-20T18:55:47.137Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method fillText"}
-{"level":30,"time":"2026-04-20T18:55:47.141Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-04-20T18:55:47.141Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with input[name=\"position\"] in page."}
-{"level":30,"time":"2026-04-20T18:55:47.152Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method fillText"}
-{"level":30,"time":"2026-04-20T18:55:47.157Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method click"}
-{"level":30,"time":"2026-04-20T18:55:47.157Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with text=Add in page."}
-{"level":30,"time":"2026-04-20T18:55:47.231Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method click"}
-{"level":30,"time":"2026-04-20T18:55:47.234Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getText"}
-{"level":30,"time":"2026-04-20T18:55:47.234Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with body in page."}
-{"level":30,"time":"2026-04-20T18:55:47.252Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Retrieved text for element body containing Job Tracker\nAdd\nApplications\nWolt\n\nFrontend Intern\n\nStatus: applied\n\nNotes:\n\nCreated: 20.4.2026\n\nEdit\nDelete\nGoogle\n\nFrontend Developer\n\nStatus: applied\n\nNotes: Applied through LinkedIn\n\nCreated: 5.4.2026\n\nEdit\nDelete\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete"}
-{"level":30,"time":"2026-04-20T18:55:47.253Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getText"}
-{"level":30,"time":"2026-04-20T18:55:47.259Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getText"}
-{"level":30,"time":"2026-04-20T18:55:47.259Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with body in page."}
-{"level":30,"time":"2026-04-20T18:55:47.267Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Retrieved text for element body containing Job Tracker\nAdd\nApplications\nWolt\n\nFrontend Intern\n\nStatus: applied\n\nNotes:\n\nCreated: 20.4.2026\n\nEdit\nDelete\nGoogle\n\nFrontend Developer\n\nStatus: applied\n\nNotes: Applied through LinkedIn\n\nCreated: 5.4.2026\n\nEdit\nDelete\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete"}
-{"level":30,"time":"2026-04-20T18:55:47.267Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getText"}
-{"level":30,"time":"2026-04-20T18:55:47.274Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-04-20T18:55:47.288Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Removed page=5185cd76-2d28-4ec0-bb80-1bae8d90d440 from context=1247a909-5b61-4c7a-86d9-fbf901f6780b page stack"}
-{"level":30,"time":"2026-04-20T18:55:47.428Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2026-04-25T11:53:29.811Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Listening on 127.0.0.1:53972"}
+{"level":30,"time":"2026-04-25T11:53:30.883Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-04-25T11:53:31.442Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Adding browser to stack: chromium, version: 147.0.7727.15"}
+{"level":30,"time":"2026-04-25T11:53:31.442Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-04-25T11:53:31.442Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-04-25T11:53:31.447Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-04-25T11:53:31.447Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-04-25T11:53:31.447Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@614712c531217e434ada4bc2a9d82719\"},\"name\":\"chromium\",\"id\":\"browser=75a2d8e3-eb4a-4af1-949c-a20da7050246\",\"headless\":true}"}
+{"level":30,"time":"2026-04-25T11:53:31.447Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Trace file: "}
+{"level":30,"time":"2026-04-25T11:53:31.487Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Setting default timeout for context context=eae6aebe-30f6-42f1-bff6-3d6b9453210d to 10000"}
+{"level":30,"time":"2026-04-25T11:53:31.487Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Changed active context: context=eae6aebe-30f6-42f1-bff6-3d6b9453210d"}
+{"level":30,"time":"2026-04-25T11:53:31.487Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newContext"}
+{"level":30,"time":"2026-04-25T11:53:31.489Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-04-25T11:53:31.490Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"currentBrowser: {\"_contextStack\":[{\"id\":\"context=eae6aebe-30f6-42f1-bff6-3d6b9453210d\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@9c56c4a71849448c1cd15e43d95636c5\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@614712c531217e434ada4bc2a9d82719\"},\"name\":\"chromium\",\"id\":\"browser=75a2d8e3-eb4a-4af1-949c-a20da7050246\",\"headless\":true}"}
+{"level":30,"time":"2026-04-25T11:53:31.724Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Video path: undefined"}
+{"level":30,"time":"2026-04-25T11:53:31.724Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Changed active page"}
+{"level":30,"time":"2026-04-25T11:53:32.401Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newPage"}
+{"level":30,"time":"2026-04-25T11:53:32.404Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-25T11:53:32.404Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with input[name=\"company\"] in page."}
+{"level":30,"time":"2026-04-25T11:53:32.491Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-25T11:53:32.493Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-25T11:53:32.493Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with input[name=\"position\"] in page."}
+{"level":30,"time":"2026-04-25T11:53:32.497Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-25T11:53:32.499Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method click"}
+{"level":30,"time":"2026-04-25T11:53:32.499Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with text=Add in page."}
+{"level":30,"time":"2026-04-25T11:53:32.537Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method click"}
+{"level":30,"time":"2026-04-25T11:53:32.539Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getText"}
+{"level":30,"time":"2026-04-25T11:53:32.539Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with body in page."}
+{"level":30,"time":"2026-04-25T11:53:32.566Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Retrieved text for element body containing Job Tracker\nAdd\nApplications\nWolt\n\nFrontend Intern\n\nStatus: applied\n\nNotes:\n\nCreated: 25.4.2026\n\nEdit\nDelete\nGoogle\n\nFrontend Developer\n\nStatus: applied\n\nNotes: Applied through LinkedIn\n\nCreated: 5.4.2026\n\nEdit\nDelete\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete"}
+{"level":30,"time":"2026-04-25T11:53:32.566Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getText"}
+{"level":30,"time":"2026-04-25T11:53:32.568Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getText"}
+{"level":30,"time":"2026-04-25T11:53:32.568Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with body in page."}
+{"level":30,"time":"2026-04-25T11:53:32.572Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Retrieved text for element body containing Job Tracker\nAdd\nApplications\nWolt\n\nFrontend Intern\n\nStatus: applied\n\nNotes:\n\nCreated: 25.4.2026\n\nEdit\nDelete\nGoogle\n\nFrontend Developer\n\nStatus: applied\n\nNotes: Applied through LinkedIn\n\nCreated: 5.4.2026\n\nEdit\nDelete\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete"}
+{"level":30,"time":"2026-04-25T11:53:32.572Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getText"}
+{"level":30,"time":"2026-04-25T11:53:32.575Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-04-25T11:53:32.579Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Removed page=9c6b7aa2-886d-4eb3-b63a-9e22ce65c64f from context=eae6aebe-30f6-42f1-bff6-3d6b9453210d page stack"}
+{"level":30,"time":"2026-04-25T11:53:32.598Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:8777:13)
@@ -48,40 +48,40 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2026-04-20T18:55:47.435Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-20T18:55:47.435Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-20T18:55:47.437Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-20T18:55:47.437Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-20T18:55:47.440Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-04-20T18:55:47.956Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Adding browser to stack: chromium, version: 147.0.7727.15"}
-{"level":30,"time":"2026-04-20T18:55:47.956Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-04-20T18:55:47.956Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-04-20T18:55:47.964Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newContext"}
-{"level":30,"time":"2026-04-20T18:55:47.964Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2026-04-20T18:55:47.964Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@57a68f0a4159a655ddab579fae122e5b\"},\"name\":\"chromium\",\"id\":\"browser=78ecdf3d-a9f7-459a-b4d0-e82be5e0186b\",\"headless\":false}"}
-{"level":30,"time":"2026-04-20T18:55:47.964Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Trace file: "}
-{"level":30,"time":"2026-04-20T18:55:47.972Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Setting default timeout for context context=10897a30-f211-41b4-8347-c2d0059c8000 to 10000"}
-{"level":30,"time":"2026-04-20T18:55:47.972Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Changed active context: context=10897a30-f211-41b4-8347-c2d0059c8000"}
-{"level":30,"time":"2026-04-20T18:55:47.972Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newContext"}
-{"level":30,"time":"2026-04-20T18:55:47.973Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-04-20T18:55:47.973Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"currentBrowser: {\"_contextStack\":[{\"id\":\"context=10897a30-f211-41b4-8347-c2d0059c8000\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@a7e2f5b68be69f6001bdc192c6d39c80\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@57a68f0a4159a655ddab579fae122e5b\"},\"name\":\"chromium\",\"id\":\"browser=78ecdf3d-a9f7-459a-b4d0-e82be5e0186b\",\"headless\":false}"}
-{"level":30,"time":"2026-04-20T18:55:48.161Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Video path: undefined"}
-{"level":30,"time":"2026-04-20T18:55:48.161Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Changed active page"}
-{"level":30,"time":"2026-04-20T18:55:48.379Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newPage"}
-{"level":30,"time":"2026-04-20T18:55:48.386Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-04-20T18:55:48.386Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with input[placeholder=\"Search by company or position\"] in page."}
-{"level":30,"time":"2026-04-20T18:55:48.456Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method fillText"}
-{"level":30,"time":"2026-04-20T18:55:48.458Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getText"}
-{"level":30,"time":"2026-04-20T18:55:48.458Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with body in page."}
-{"level":30,"time":"2026-04-20T18:55:48.473Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Retrieved text for element body containing Job Tracker\nAdd\nApplications\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete"}
-{"level":30,"time":"2026-04-20T18:55:48.473Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getText"}
-{"level":30,"time":"2026-04-20T18:55:48.474Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getText"}
-{"level":30,"time":"2026-04-20T18:55:48.475Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with body in page."}
-{"level":30,"time":"2026-04-20T18:55:48.478Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Retrieved text for element body containing Job Tracker\nAdd\nApplications\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete"}
-{"level":30,"time":"2026-04-20T18:55:48.478Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getText"}
-{"level":30,"time":"2026-04-20T18:55:48.480Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-04-20T18:55:48.484Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Removed page=28040a00-8362-48c4-b2bb-a3e4d69d2e32 from context=10897a30-f211-41b4-8347-c2d0059c8000 page stack"}
-{"level":30,"time":"2026-04-20T18:55:48.583Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2026-04-25T11:53:32.601Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-25T11:53:32.601Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-25T11:53:32.602Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-25T11:53:32.602Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-25T11:53:32.604Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-04-25T11:53:32.685Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Adding browser to stack: chromium, version: 147.0.7727.15"}
+{"level":30,"time":"2026-04-25T11:53:32.685Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-04-25T11:53:32.685Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-04-25T11:53:32.687Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-04-25T11:53:32.687Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-04-25T11:53:32.688Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@433dbd835190ec2c5fcbd36b50f94f04\"},\"name\":\"chromium\",\"id\":\"browser=6398d7ab-2641-4f22-8be6-6da9af095ece\",\"headless\":true}"}
+{"level":30,"time":"2026-04-25T11:53:32.688Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Trace file: "}
+{"level":30,"time":"2026-04-25T11:53:32.690Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Setting default timeout for context context=57c20cd7-3f08-4f75-a810-1aa92eb82f60 to 10000"}
+{"level":30,"time":"2026-04-25T11:53:32.690Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Changed active context: context=57c20cd7-3f08-4f75-a810-1aa92eb82f60"}
+{"level":30,"time":"2026-04-25T11:53:32.690Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newContext"}
+{"level":30,"time":"2026-04-25T11:53:32.692Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-04-25T11:53:32.692Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"currentBrowser: {\"_contextStack\":[{\"id\":\"context=57c20cd7-3f08-4f75-a810-1aa92eb82f60\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@120fb364ea6879fca62dc59be63dd881\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@433dbd835190ec2c5fcbd36b50f94f04\"},\"name\":\"chromium\",\"id\":\"browser=6398d7ab-2641-4f22-8be6-6da9af095ece\",\"headless\":true}"}
+{"level":30,"time":"2026-04-25T11:53:32.789Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Video path: undefined"}
+{"level":30,"time":"2026-04-25T11:53:32.790Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Changed active page"}
+{"level":30,"time":"2026-04-25T11:53:32.874Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newPage"}
+{"level":30,"time":"2026-04-25T11:53:32.877Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-25T11:53:32.877Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with input[placeholder=\"Search by company or position\"] in page."}
+{"level":30,"time":"2026-04-25T11:53:32.898Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-25T11:53:32.900Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getText"}
+{"level":30,"time":"2026-04-25T11:53:32.900Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with body in page."}
+{"level":30,"time":"2026-04-25T11:53:32.912Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Retrieved text for element body containing Job Tracker\nAdd\nApplications\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete"}
+{"level":30,"time":"2026-04-25T11:53:32.912Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getText"}
+{"level":30,"time":"2026-04-25T11:53:32.914Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getText"}
+{"level":30,"time":"2026-04-25T11:53:32.914Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with body in page."}
+{"level":30,"time":"2026-04-25T11:53:32.917Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Retrieved text for element body containing Job Tracker\nAdd\nApplications\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete"}
+{"level":30,"time":"2026-04-25T11:53:32.917Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getText"}
+{"level":30,"time":"2026-04-25T11:53:32.919Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-04-25T11:53:32.920Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Removed page=d1d5d0f1-02c4-40f8-bb49-800eae079c4b from context=57c20cd7-3f08-4f75-a810-1aa92eb82f60 page stack"}
+{"level":30,"time":"2026-04-25T11:53:32.933Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:8777:13)
@@ -95,44 +95,44 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2026-04-20T18:55:48.588Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-20T18:55:48.588Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-20T18:55:48.589Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-20T18:55:48.589Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-20T18:55:48.591Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-04-20T18:55:48.820Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Adding browser to stack: chromium, version: 147.0.7727.15"}
-{"level":30,"time":"2026-04-20T18:55:48.820Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-04-20T18:55:48.820Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-04-20T18:55:48.827Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newContext"}
-{"level":30,"time":"2026-04-20T18:55:48.827Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2026-04-20T18:55:48.827Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@dd362e38de955f201bb8a091ddc92d54\"},\"name\":\"chromium\",\"id\":\"browser=f48766dd-9155-4893-b75c-3c78130090e9\",\"headless\":false}"}
-{"level":30,"time":"2026-04-20T18:55:48.827Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Trace file: "}
-{"level":30,"time":"2026-04-20T18:55:48.831Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Setting default timeout for context context=c7c61370-e540-4a3c-aaad-1cc800abfee1 to 10000"}
-{"level":30,"time":"2026-04-20T18:55:48.831Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Changed active context: context=c7c61370-e540-4a3c-aaad-1cc800abfee1"}
-{"level":30,"time":"2026-04-20T18:55:48.831Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newContext"}
-{"level":30,"time":"2026-04-20T18:55:48.833Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-04-20T18:55:48.833Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"currentBrowser: {\"_contextStack\":[{\"id\":\"context=c7c61370-e540-4a3c-aaad-1cc800abfee1\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@69a9d3eefa7ee2be6e16520e2284817b\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@dd362e38de955f201bb8a091ddc92d54\"},\"name\":\"chromium\",\"id\":\"browser=f48766dd-9155-4893-b75c-3c78130090e9\",\"headless\":false}"}
-{"level":30,"time":"2026-04-20T18:55:49.020Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Video path: undefined"}
-{"level":30,"time":"2026-04-20T18:55:49.020Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Changed active page"}
-{"level":30,"time":"2026-04-20T18:55:49.232Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newPage"}
-{"level":30,"time":"2026-04-20T18:55:49.236Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method click"}
-{"level":30,"time":"2026-04-20T18:55:49.236Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with text=Edit >> nth=0 in page."}
-{"level":30,"time":"2026-04-20T18:55:49.332Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method click"}
-{"level":30,"time":"2026-04-20T18:55:49.334Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method selectOption"}
-{"level":30,"time":"2026-04-20T18:55:49.334Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with select in page."}
-{"level":30,"time":"2026-04-20T18:55:49.366Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Option entries: 4"}
-{"level":30,"time":"2026-04-20T18:55:49.366Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Selected entries: 1"}
-{"level":30,"time":"2026-04-20T18:55:49.366Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method selectOption"}
-{"level":30,"time":"2026-04-20T18:55:49.368Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method click"}
-{"level":30,"time":"2026-04-20T18:55:49.369Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with text=Save in page."}
-{"level":30,"time":"2026-04-20T18:55:49.637Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method click"}
-{"level":30,"time":"2026-04-20T18:55:49.642Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getText"}
-{"level":30,"time":"2026-04-20T18:55:49.642Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with body in page."}
-{"level":30,"time":"2026-04-20T18:55:49.660Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Retrieved text for element body containing Job Tracker\nAdd\nApplications\nGoogle\n\nFrontend Developer\n\nStatus: offer\n\nNotes: Applied through LinkedIn\n\nCreated: 5.4.2026\n\nEdit\nDelete\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete"}
-{"level":30,"time":"2026-04-20T18:55:49.661Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getText"}
-{"level":30,"time":"2026-04-20T18:55:49.664Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-04-20T18:55:49.669Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Removed page=bca06074-d23f-43bc-9ebb-1d7c38efba0c from context=c7c61370-e540-4a3c-aaad-1cc800abfee1 page stack"}
-{"level":30,"time":"2026-04-20T18:55:49.734Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2026-04-25T11:53:32.936Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-25T11:53:32.936Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-25T11:53:32.937Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-25T11:53:32.937Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-25T11:53:32.939Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-04-25T11:53:33.047Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Adding browser to stack: chromium, version: 147.0.7727.15"}
+{"level":30,"time":"2026-04-25T11:53:33.047Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-04-25T11:53:33.047Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-04-25T11:53:33.052Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-04-25T11:53:33.052Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-04-25T11:53:33.052Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@94e3876dfb2b1522adc51db09f42c015\"},\"name\":\"chromium\",\"id\":\"browser=aa9ac512-1559-45e9-9dcb-a6aa5b81fdf7\",\"headless\":true}"}
+{"level":30,"time":"2026-04-25T11:53:33.052Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Trace file: "}
+{"level":30,"time":"2026-04-25T11:53:33.057Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Setting default timeout for context context=d1b2a502-fe5e-4841-be1d-4ac99c0f4169 to 10000"}
+{"level":30,"time":"2026-04-25T11:53:33.057Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Changed active context: context=d1b2a502-fe5e-4841-be1d-4ac99c0f4169"}
+{"level":30,"time":"2026-04-25T11:53:33.057Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newContext"}
+{"level":30,"time":"2026-04-25T11:53:33.064Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-04-25T11:53:33.064Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"currentBrowser: {\"_contextStack\":[{\"id\":\"context=d1b2a502-fe5e-4841-be1d-4ac99c0f4169\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@bdce8c14fa042d0e3dc3a23b99b12c9c\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@94e3876dfb2b1522adc51db09f42c015\"},\"name\":\"chromium\",\"id\":\"browser=aa9ac512-1559-45e9-9dcb-a6aa5b81fdf7\",\"headless\":true}"}
+{"level":30,"time":"2026-04-25T11:53:33.135Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Video path: undefined"}
+{"level":30,"time":"2026-04-25T11:53:33.135Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Changed active page"}
+{"level":30,"time":"2026-04-25T11:53:33.286Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newPage"}
+{"level":30,"time":"2026-04-25T11:53:33.289Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method click"}
+{"level":30,"time":"2026-04-25T11:53:33.289Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with text=Edit >> nth=0 in page."}
+{"level":30,"time":"2026-04-25T11:53:33.331Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method click"}
+{"level":30,"time":"2026-04-25T11:53:33.333Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method selectOption"}
+{"level":30,"time":"2026-04-25T11:53:33.333Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with select in page."}
+{"level":30,"time":"2026-04-25T11:53:33.365Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Option entries: 4"}
+{"level":30,"time":"2026-04-25T11:53:33.365Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Selected entries: 1"}
+{"level":30,"time":"2026-04-25T11:53:33.365Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method selectOption"}
+{"level":30,"time":"2026-04-25T11:53:33.367Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method click"}
+{"level":30,"time":"2026-04-25T11:53:33.367Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with text=Save in page."}
+{"level":30,"time":"2026-04-25T11:53:33.603Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method click"}
+{"level":30,"time":"2026-04-25T11:53:33.606Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getText"}
+{"level":30,"time":"2026-04-25T11:53:33.606Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with body in page."}
+{"level":30,"time":"2026-04-25T11:53:33.617Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Retrieved text for element body containing Job Tracker\nAdd\nApplications\nGoogle\n\nFrontend Developer\n\nStatus: offer\n\nNotes: Applied through LinkedIn\n\nCreated: 5.4.2026\n\nEdit\nDelete\nMicrosoft\n\nSoftware Engineer\n\nStatus: interview\n\nNotes: First interview scheduled\n\nCreated: 4.4.2026\n\nEdit\nDelete"}
+{"level":30,"time":"2026-04-25T11:53:33.617Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getText"}
+{"level":30,"time":"2026-04-25T11:53:33.619Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-04-25T11:53:33.620Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Removed page=fc182bb3-6e1a-4a4f-a072-0421d5a0d69c from context=d1b2a502-fe5e-4841-be1d-4ac99c0f4169 page stack"}
+{"level":30,"time":"2026-04-25T11:53:33.637Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:8777:13)
@@ -146,32 +146,32 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2026-04-20T18:55:49.737Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-20T18:55:49.737Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-20T18:55:49.738Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-20T18:55:49.738Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-20T18:55:49.740Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-04-20T18:55:49.966Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Adding browser to stack: chromium, version: 147.0.7727.15"}
-{"level":30,"time":"2026-04-20T18:55:49.966Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-04-20T18:55:49.967Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-04-20T18:55:49.977Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newContext"}
-{"level":30,"time":"2026-04-20T18:55:49.977Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2026-04-20T18:55:49.977Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@a84bbfedbf858e5c5aa210d467066952\"},\"name\":\"chromium\",\"id\":\"browser=8d34671e-3f2e-42dd-81fb-ba135004c3c7\",\"headless\":false}"}
-{"level":30,"time":"2026-04-20T18:55:49.977Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Trace file: "}
-{"level":30,"time":"2026-04-20T18:55:49.980Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Setting default timeout for context context=529199be-72ef-4071-8d75-ff13d0e7b34c to 10000"}
-{"level":30,"time":"2026-04-20T18:55:49.980Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Changed active context: context=529199be-72ef-4071-8d75-ff13d0e7b34c"}
-{"level":30,"time":"2026-04-20T18:55:49.980Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newContext"}
-{"level":30,"time":"2026-04-20T18:55:49.982Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-04-20T18:55:49.982Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"currentBrowser: {\"_contextStack\":[{\"id\":\"context=529199be-72ef-4071-8d75-ff13d0e7b34c\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@f80efa8426ec84384ca4df615bcbd365\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@a84bbfedbf858e5c5aa210d467066952\"},\"name\":\"chromium\",\"id\":\"browser=8d34671e-3f2e-42dd-81fb-ba135004c3c7\",\"headless\":false}"}
-{"level":30,"time":"2026-04-20T18:55:50.190Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Video path: undefined"}
-{"level":30,"time":"2026-04-20T18:55:50.190Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Changed active page"}
-{"level":30,"time":"2026-04-20T18:55:50.364Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newPage"}
-{"level":30,"time":"2026-04-20T18:55:50.368Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method click"}
-{"level":30,"time":"2026-04-20T18:55:50.368Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with text=Delete >> nth=0 in page."}
-{"level":30,"time":"2026-04-20T18:55:50.460Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method click"}
-{"level":30,"time":"2026-04-20T18:55:51.468Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-04-20T18:55:51.477Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Removed page=dc0256be-6124-4dff-a20e-988cf48bdb1a from context=529199be-72ef-4071-8d75-ff13d0e7b34c page stack"}
-{"level":30,"time":"2026-04-20T18:55:51.579Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2026-04-25T11:53:33.640Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-25T11:53:33.640Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-25T11:53:33.642Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-25T11:53:33.642Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-25T11:53:33.644Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-04-25T11:53:33.759Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Adding browser to stack: chromium, version: 147.0.7727.15"}
+{"level":30,"time":"2026-04-25T11:53:33.759Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-04-25T11:53:33.759Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-04-25T11:53:33.762Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-04-25T11:53:33.762Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-04-25T11:53:33.762Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@8e709374d5c2180bdfe3c632cc145e5a\"},\"name\":\"chromium\",\"id\":\"browser=78287245-187e-40fb-9f24-c51e97cd63e2\",\"headless\":true}"}
+{"level":30,"time":"2026-04-25T11:53:33.763Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Trace file: "}
+{"level":30,"time":"2026-04-25T11:53:33.766Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Setting default timeout for context context=e1e9e33b-d5c3-46e0-8349-6da15ecb0630 to 10000"}
+{"level":30,"time":"2026-04-25T11:53:33.766Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Changed active context: context=e1e9e33b-d5c3-46e0-8349-6da15ecb0630"}
+{"level":30,"time":"2026-04-25T11:53:33.766Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newContext"}
+{"level":30,"time":"2026-04-25T11:53:33.768Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-04-25T11:53:33.768Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"currentBrowser: {\"_contextStack\":[{\"id\":\"context=e1e9e33b-d5c3-46e0-8349-6da15ecb0630\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@84bdd2289381f2dcdd1fcf0caca88d61\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@8e709374d5c2180bdfe3c632cc145e5a\"},\"name\":\"chromium\",\"id\":\"browser=78287245-187e-40fb-9f24-c51e97cd63e2\",\"headless\":true}"}
+{"level":30,"time":"2026-04-25T11:53:33.870Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Video path: undefined"}
+{"level":30,"time":"2026-04-25T11:53:33.870Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Changed active page"}
+{"level":30,"time":"2026-04-25T11:53:34.022Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method newPage"}
+{"level":30,"time":"2026-04-25T11:53:34.027Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method click"}
+{"level":30,"time":"2026-04-25T11:53:34.027Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Strict mode is enabled, find Locator with text=Delete >> nth=0 in page."}
+{"level":30,"time":"2026-04-25T11:53:34.109Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method click"}
+{"level":30,"time":"2026-04-25T11:53:35.119Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-04-25T11:53:35.122Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Removed page=52205940-d620-4fe2-a379-5b2543354c3e from context=e1e9e33b-d5c3-46e0-8349-6da15ecb0630 page stack"}
+{"level":30,"time":"2026-04-25T11:53:35.143Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:8777:13)
@@ -185,8 +185,8 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2026-04-20T18:55:51.583Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-20T18:55:51.583Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-25T11:53:35.147Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-25T11:53:35.147Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:8777:13)
@@ -200,7 +200,7 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2026-04-20T18:55:51.587Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-20T18:55:51.587Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-04-20T18:55:51.613Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2026-04-20T18:55:51.613Z","pid":74696,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2026-04-25T11:53:35.154Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-25T11:53:35.154Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-25T11:53:35.181Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-04-25T11:53:35.181Z","pid":38745,"hostname":"unknown6a0cc605218d.elisakoti","msg":"End of node method closeAllBrowsers"}
