@@ -56,10 +56,6 @@ Sovellus pidettiin tarkoituksella yksinkertaisena, jotta työn painopiste voitii
 
 Projektissa käytettiin Next.js App Router -rakennetta. Koodi jaettiin pienempiin osiin, jotta rakenne pysyy selkeänä ja helposti ylläpidettävänä.
 
-## Projektin rakenne
-
-Projektissa käytettiin Next.js App Router -rakennetta. Koodi jaettiin pienempiin osiin, jotta rakenne pysyy selkeänä ja helposti ylläpidettävänä.
-
 ```text
 src/
 ├── app/
@@ -385,6 +381,7 @@ Työ auttoi ymmärtämään, miten eri teknologiat tukevat toisiaan osana yhtä 
 - laajempi testikattavuus
 - security scan osaksi CI-putkea
 - staging-ympäristö
+- paikalliset Git-hookit esimerkiksi Huskylla, jotta `lint`, `format:check` ja `build` voidaan ajaa automaattisesti ennen pushia
 
 ## Yhteenveto
 
@@ -402,6 +399,6 @@ Työ osoitti, että yksinkertaisestakin sovelluksesta voidaan rakentaa teknisest
 
 ## Kuvakaappaukset
 
-<img src="./kuva-sovelluksesta.jpeg" width="500" alt="App Screenshot" />
+<img src="./images/kuva-sovelluksesta.jpeg" width="500" alt="App Screenshot" />
 
 ## Videolinkki
