@@ -39,7 +39,6 @@ jobs:
 
       - name: Check formatting
         run: npm run format:check
-      
 
       - name: Run ESLint
         run: npm run lint
@@ -95,7 +94,6 @@ jobs:
           path: reports/
           retention-days: 7
 
-          
         # Dockerfile build
   docker-build:
     runs-on: ubuntu-latest
