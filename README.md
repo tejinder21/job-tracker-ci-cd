@@ -339,6 +339,6 @@ Työ osoitti, että yksinkertaisestakin sovelluksesta voidaan rakentaa teknisest
 
 ## Kuvakaappaukset
 
-<p align="center">
-  <img src="./kuva-sovelluksesta.jpeg" width="700" alt="App Screenshot" />
-</p>
+<img src="./kuva-sovelluksesta.jpeg" width="500" alt="App Screenshot" />
+
+## Videolinkki
