@@ -3,6 +3,8 @@ name: CI
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - "README.md"
   pull_request:
     branches: [main]
 
@@ -38,7 +40,8 @@ jobs:
 
       - name: Build app
         run: npm run build
-
+ 
+        # Robot Framework tests
   robot-tests:
     runs-on: ubuntu-latest
     needs: quality-and-build
@@ -76,17 +79,14 @@ jobs:
         run: npx wait-on http://localhost:3000
 
       - name: Run Robot tests
-        run: robot tests/jobtracker.robot
+        run: robot -d reports tests/jobtracker.robot
 
       - name: Upload Robot report
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: robot-report
-          path: |
-            log.html
-            report.html
-            output.xml
+          path: reports/
           retention-days: 7
 
           # Dockerfile
