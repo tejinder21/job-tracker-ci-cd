@@ -7,6 +7,25 @@ Tämä projekti on seminaarityö kurssille **Ohjelmistokehityksen teknologia**. 
 Projektin päätavoitteena ei ollut rakentaa mahdollisimman laajaa sovellusta, vaan käyttää yksinkertaista sovellusta alustana modernien ohjelmistokehityksen teknologioiden opiskeluun käytännössä. Työssä keskityttiin erityisesti siihen, miten nykyaikainen web-projekti rakennetaan, testataan, automatisoidaan ja kontitetaan.
 
 ---
+## Kuvakaappaus sovelluksesta
+<img src="./images/kuva-sovelluksesta.jpeg" width="500" alt="App Screenshot" />
+
+---
+## Sisällysluettelo
+
+- Johdanto
+- Projektin tavoite
+- Käytetyt teknologiat
+- Sovelluksen ominaisuudet
+- Käynnistäminen
+- ESLint ja Prettier
+- Robot Framework
+- GitHub Actions CI
+- Docker
+- Haasteet
+- Mitä opin
+- Jatkokehitys
+- Yhteenveto
 
 ## Projektin tavoite
 
@@ -68,6 +87,16 @@ src/
 └── types/
     └── jobs.ts
 ```
+## Quick Start
+
+```bash
+npm install
+npm run dev
+````
+## CI-osioon kuva
+<img src="./images/CI.jpeg" width="500" alt="App Screenshot" />
+
+
 
 ## Sovelluksen käynnistäminen lokaalisti
 
@@ -165,6 +194,10 @@ Tämän vaiheen aikana opin erityisesti
 ## Robot Framework -testaus
 
 Projektissa haluttiin tutustua käyttöliittymän automaattiseen testaukseen. Tätä varten valittiin **Robot Framework**, joka soveltuu hyvin end-to-end-testaukseen.
+
+## Robot testiraportti
+<img src="./images/Robot-tests.jpeg" width="500" alt="App Screenshot" />
+
 
 ### Miksi Robot Framework?
 
@@ -286,6 +319,10 @@ GitHub Actionsin käyttöönotto opetti paljon käytännön CI-putkista:
 
 Projektin viimeisenä teknisenä osuutena sovellus kontitettiin Dockerilla.
 
+###  Docker ajo
+<img src="./images/Docker-run.jpeg" width="500" alt="App Screenshot" />
+
+
 ### Miksi Docker?
 
 Docker lisättiin projektiin, koska sen avulla sovellus voidaan ajaa samalla tavalla eri ympäristöissä. Tämä auttaa välttämään tilanteita, joissa sovellus toimii yhdellä koneella mutta ei toisella.
@@ -397,8 +434,10 @@ Työn aikana projektiin lisättiin:
 
 Työ osoitti, että yksinkertaisestakin sovelluksesta voidaan rakentaa teknisesti laadukas kokonaisuus, kun siihen yhdistetään modernit kehitystyökalut ja käytännöt.
 
-## Kuvakaappaukset
-
-<img src="./images/kuva-sovelluksesta.jpeg" width="500" alt="App Screenshot" />
-
 ## Videolinkki
+
+
+## Tekijä
+
+Seminaarityö – Ohjelmistokehityksen teknologiat  
+Tajinder Kumar
