@@ -7,10 +7,13 @@ Tämä projekti on seminaarityö kurssille **Ohjelmistokehityksen teknologia**. 
 Projektin päätavoitteena ei ollut rakentaa mahdollisimman laajaa sovellusta, vaan käyttää yksinkertaista sovellusta alustana modernien ohjelmistokehityksen teknologioiden opiskeluun käytännössä. Työssä keskityttiin erityisesti siihen, miten nykyaikainen web-projekti rakennetaan, testataan, automatisoidaan ja kontitetaan.
 
 ---
+
 ## Kuvakaappaus sovelluksesta
+
 <img src="./images/kuva-sovelluksesta.jpeg" width="500" alt="App Screenshot" />
 
 ---
+
 ## Sisällysluettelo
 
 - Johdanto
@@ -87,13 +90,13 @@ src/
 └── types/
     └── jobs.ts
 ```
+
 ## Quick Start
 
 ```bash
 npm install
 npm run dev
-````
-
+```
 
 ## Sovelluksen käynnistäminen lokaalisti
 
@@ -193,8 +196,8 @@ Tämän vaiheen aikana opin erityisesti
 Projektissa haluttiin tutustua käyttöliittymän automaattiseen testaukseen. Tätä varten valittiin **Robot Framework**, joka soveltuu hyvin end-to-end-testaukseen.
 
 ## Robot testiraportti
-<img src="./images/Robot-tests.jpeg" width="500" alt="App Screenshot" />
 
+<img src="./images/Robot-tests.jpeg" width="500" alt="App Screenshot" />
 
 ### Miksi Robot Framework?
 
@@ -258,6 +261,7 @@ Projektissa otettiin käyttöön **GitHub Actions** -pohjainen jatkuvan integraa
 CI:n tarkoituksena oli automatisoida projektin laadunvarmistus. Jokainen push ja pull request tarkistetaan automaattisesti ilman manuaalista työtä.
 
 ## CI-osion kuva
+
 <img src="./images/CI.jpeg" width="500" alt="App Screenshot" />
 
 ### Workflow käynnistyy kun
@@ -319,9 +323,9 @@ GitHub Actionsin käyttöönotto opetti paljon käytännön CI-putkista:
 
 Projektin viimeisenä teknisenä osuutena sovellus kontitettiin Dockerilla.
 
-###  Docker ajo
-<img src="./images/Docker-run.jpeg" width="500" alt="App Screenshot" />
+### Docker ajo
 
+<img src="./images/Docker-run.jpeg" width="500" alt="App Screenshot" />
 
 ### Miksi Docker?
 
@@ -435,7 +439,6 @@ Työn aikana projektiin lisättiin:
 Työ osoitti, että yksinkertaisestakin sovelluksesta voidaan rakentaa teknisesti laadukas kokonaisuus, kun siihen yhdistetään modernit kehitystyökalut ja käytännöt.
 
 ## Videolinkki
-
 
 ## Tekijä
 
